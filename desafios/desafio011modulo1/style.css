@@ -1,0 +1,28 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(17, 17, 27);
+}
+h1{
+    margin-top: 20px;
+}
+.video-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.video-gallery a {
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    flex: 0 1 35%; /* 35% para deixar as imagen menores */
+}
+.video-gallery img {
+    width: 100%; /* A imagem ocupara toda a largura do item */
+    height: auto;
+    border: 2px solid #ccc;
+ }
+ .video-gallery p {
+     margin-top: 10px;
+ }
